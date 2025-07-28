@@ -110,11 +110,11 @@ const Manager = () => {
                         <tbody className="">
                             {passwordArray.map((item, key) => {
                                 return <tr key={key} className="bg-blue-50 ">
-                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><a href={item.site} target='_blank'><span>{item.site}</span></a><img src="src\assets\file-copy-fill.png" alt="copy" onClick={() => { copyData(item.site) }} /></div></td>
-                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><span>{item.username}</span><img src="src\assets\file-copy-fill.png" alt="copy" onClick={() => { copyData(item.username) }} /></div></td>
-                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><span>{item.password}</span><img src="src\assets\file-copy-fill.png" alt="copy" onClick={() => { copyData(item.password) }} /></div></td>
-                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><img src="src\assets\pencil-fill.png" alt="edit" onClick={() => { editData(item.id) }} />
-                                        <img src="src\assets\delete-bin-6-fill.png" alt="delete" onClick={() => { deleteData(item.id) }} />
+                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><a href={item.site} target='_blank'><span>{item.site}</span></a><img src="/assets/file-copy-fill.png" alt="copy" onClick={() => { copyData(item.site) }} /></div></td>
+                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><span>{item.username}</span><img src="/assets/file-copy-fill.png" alt="copy" onClick={() => { copyData(item.username) }} /></div></td>
+                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><span>{item.password}</span><img src="/assets/file-copy-fill.png" alt="copy" onClick={() => { copyData(item.password) }} /></div></td>
+                                    <td className="py-2.5 border-2 border-white"><div className='flex items-center justify-center gap-1'><img src="/assets/pencil-fill.png" alt="edit" onClick={() => { editData(item.id) }} />
+                                        <img src="/assets/delete-bin-6-fill.png" alt="delete" onClick={() => { deleteData(item.id) }} />
                                     </div>
                                     </td>
 
